@@ -47,6 +47,10 @@
                 <behavior>Readonly</behavior>
                 <field>Adjustable1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Adjustable2__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
