@@ -43,3 +43,4 @@ coverage
 # UTAM
 pageObjects
 .env
+force-app/main/default/audience/Default_E-Bikes.audience-meta.xml
