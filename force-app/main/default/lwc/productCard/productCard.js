@@ -23,6 +23,7 @@ import FOPK_FIELD from '@salesforce/schema/Product__c.Fork__c';
 import FRONT_BRAKES_FIELD from '@salesforce/schema/Product__c.Front_Brakes__c';
 import REAR_BRAKES_FIELD from '@salesforce/schema/Product__c.Rear_Brakes__c';
 import ADJUSTABLE_FIELD from '@salesforce/schema/Product__c.Adjustable1__c';
+import ADJUSTABLE2_FIELD from '@salesforce/schema/Product__c.Adjustable2__c';
 
 /**
  * Component to display details of a Product__c.
@@ -40,6 +41,7 @@ export default class ProductCard extends NavigationMixin(LightningElement) {
     frontBrakesField = FRONT_BRAKES_FIELD;
     rearBrakesField = REAR_BRAKES_FIELD;
     adjustableField = ADJUSTABLE_FIELD;
+    adjustable2Field = ADJUSTABLE2_FIELD;
 
     // Id of Product__c to display
     recordId;
